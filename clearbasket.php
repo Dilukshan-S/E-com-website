@@ -1,6 +1,8 @@
 <?php
 session_start();
 include ("db.php"); //include db.php file to connect to DB
+include("detectlogin.php");
+
 $pagename="clear smart basket"; //create and populate variable called $pagename
 echo "<link rel=stylesheet type=text/css href=mystylesheet.css>";
 echo "<title>".$pagename."</title>";
