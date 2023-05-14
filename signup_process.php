@@ -86,13 +86,7 @@ echo "<br><br><br><br>";
 }
 }
 
-//Write SQL query to insert new user into users table and execute SQL query
-// $SQL="insert into Users
-// (userType, userFName, userSName, userAddress, userPostCode, userTelNo, userEmail, userPassword)
-// values 
-// ('C','".$fname."','".$lname."','".$address."','".$postcode."','".$telno."','".$email."', '".$password1."')";
-
-
+//SQL query to insert new user into users table and execute SQL query
 $SQL="insert into Users (userType, userFName, userSName, userAddress, userPostCode, userTelNo, userEmail, userPassword)
 values ('C','".$fname."','".$lname."','".$address."','".$postcode."', '".$telno."', '".$email."', '".$password1."')";
 
